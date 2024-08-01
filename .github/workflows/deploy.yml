@@ -8,7 +8,7 @@ env:
   CACHE_KEY: node-deps
   MONGODB_DB_NAME: gha-demo
 jobs:
-  # test comment added
+  # test comment
   test:
     environment: testing
     runs-on: ubuntu-latest
